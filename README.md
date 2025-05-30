@@ -36,4 +36,4 @@ To run this project locally:
 
 ```bash
 git clone https://github.com/amiteshkushwaha7/Personal-Portfolio.git
-cd your-portfolio-repo
+cd Personal-Portfolio
