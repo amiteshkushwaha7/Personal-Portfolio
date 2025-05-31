@@ -36,7 +36,7 @@ function Contact() {
       alert('Failed to send message. Please try again later.');
     } finally {
       setLoading(false); // <-- Set loading to false after submission
-    }
+    } 
   };
 
   // Modal component
@@ -60,10 +60,10 @@ function Contact() {
   return (
     <>
       <SuccessModal open={modalOpen} onClose={() => setModalOpen(false)} />
-      <section id='contact' className='flex justify-center items-center min-h-screen py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
+      <section id='contact' className='flex justify-center items-center min-h-screen py-8 px-4 sm:px-6 lg:px-8 pb-20 bg-gray-100'>
         <div className="w-full max-w-6xl mx-4">
           <div className='text-center mb-8 md:mb-12'>
-            <h4 className='text-2xl md:text-3xl font-bold mb-2'>Contact Me</h4>
+            <h4 className='font-bold text-xl md:text-2xl mb-2'>Contact Me</h4>
             <p className='text-gray-600'>Get in Touch</p>
           </div>
 

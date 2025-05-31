@@ -3,14 +3,14 @@ import aboutImage from '../assets/aboutImage.jpg'
 
 function About() {
   return (
-    <section className='flex justify-center items-center-safe min-h-screen mb-10'>
-      <div className="w-9/12 max-w-6xl">
+    <section id='about' className='flex justify-center items-center min-h-screen py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
+      <div className="w-full max-w-6xl mx-4">
         <div className='text-center mb-12'>
           <h4 className='text-2xl font-bold mb-2'>About Me</h4>
           <p className='text-gray-600'>What I do</p>
         </div>
 
-        <div className='flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12'>
+        <div className='flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12 bg-white rounded-xl shadow-lg p-8'>
           <div className='w-full lg:w-1/3 flex justify-center'>
             <img
               src={aboutImage}

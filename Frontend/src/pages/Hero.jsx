@@ -12,9 +12,10 @@ function Hero() {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  return (
-    <section className="flex justify-center items-center-safe min-h-screen">
-      <div className="w-9/12 flex justify-between items-center">
+  return ( 
+    <section id='home' className='flex justify-center items-center min-h-screen py-8 px-4 sm:px-6 lg:px-8 bg-gray-100 pt-20'>
+      <div className="w-full flex justify-between items-center max-w-6xl mx-4 bg-white rounded-xl shadow-lg p-8">
+    
         {/* Follow On section - now using writing-mode for consistent vertical text */}
         <div className="flex flex-col justify-center items-center gap-5 max-[480px]:hidden">
           <p className="writing-mode-vertical tracking-[0.25rem]">Follow On</p>

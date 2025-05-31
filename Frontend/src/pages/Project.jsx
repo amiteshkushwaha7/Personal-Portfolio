@@ -47,16 +47,16 @@ function Project() {
   };
 
   return (
-    <section className="flex justify-center items-center mt-20 mb-40">
-      <div className="w-11/12 md:w-9/12 max-w-6xl">
+    <section id='project' className='flex justify-center items-center min-h-screen py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
+      <div className="w-full max-w-6xl mx-4">
         <div className="text-center mb-8 md:mb-12">
           <h4 className="font-bold text-xl md:text-2xl mb-2">Projects</h4>
           <p className="text-gray-600">My Creative Works</p>
         </div>
 
-        <div className="flex flex-col justify-center items-center md:flex-row gap-4 md:gap-6">
+        <div className="flex flex-col justify-center items-center md:flex-row gap-4 md:gap-6 bg-white rounded-xl shadow-lg p-8">
           {/* Project 1 */}
-          <div className="w-2/3 md:w-1/3 p-0 text-center border-b-4 border-b-indigo-400 bg-white rounded-lg shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out">
+          <div className="w-2/3 md:w-1/3 p-0 text-center border-b-4 border-b-indigo-400 bg-white hover:rounded-lg hover:shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out md:h-[350px]">
             <div
               className="cursor-pointer"
               onClick={() => openModal(projects[0])}
@@ -70,7 +70,7 @@ function Project() {
               </div>
               <div className="flex flex-col items-center p-6">
                 <div className="w-full text-center">
-                  
+
                   <p className="text-lg md:text-xl font-semibold mb-2 md:mb-3">{projects[0].title}</p>
                   <p className="text-center mb-3 md:mb-4 text-gray-600 text-sm md:text-base line-clamp-3">
                     Online Examination Platform
@@ -81,7 +81,7 @@ function Project() {
           </div>
 
           {/* Project 2 */}
-          <div className="w-2/3 md:w-1/3 p-0 text-center border-b-4 border-b-indigo-400 bg-white rounded-lg shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out">
+          <div className="w-2/3 md:w-1/3 p-0 text-center border-b-4 border-b-indigo-400 bg-white hover:rounded-lg hover:shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out md:h-[350px]">
             <div
               className="cursor-pointer"
               onClick={() => openModal(projects[1])}
@@ -94,18 +94,18 @@ function Project() {
                 />
               </div>
               <div className="flex flex-col items-center p-6">
-                <div className="w-full text-center"> 
+                <div className="w-full text-center">
                   <p className="text-lg md:text-xl font-semibold mb-2 md:mb-3">{projects[1].title}</p>
                   <p className="text-center mb-3 md:mb-4 text-gray-600 text-sm md:text-base line-clamp-3">
                     A Marketplace for Homes
                   </p>
-                </div> 
+                </div>
               </div>
             </div>
           </div>
 
           {/* Project 3 */}
-          <div className="w-2/3 md:w-1/3 p-0 text-center border-b-4 border-b-indigo-400 bg-white rounded-lg shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out">
+          <div className="w-2/3 md:w-1/3 p-0 text-center border-b-4 border-b-indigo-400 bg-white hover:rounded-lg hover:shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out md:h-[350px]">
             <div
               className="cursor-pointer"
               onClick={() => openModal(projects[2])}
@@ -118,7 +118,7 @@ function Project() {
                 />
               </div>
               <div className="flex flex-col items-center p-6">
-                <div className="w-full text-center"> 
+                <div className="w-full text-center">
                   <p className="text-lg md:text-xl font-semibold mb-2 md:mb-3">{projects[2].title}</p>
                   <p className="text-center mb-3 md:mb-4 text-gray-600 text-sm md:text-base line-clamp-3">
                     Metro Station Distance Finder

@@ -51,17 +51,17 @@ function Service() {
     setSelectedService(null);
   };
 
-  return (
-    <section className="flex justify-center items-center mt-20 mb-40">
-      <div className="w-11/12 md:w-9/12 max-w-6xl">
+  return ( 
+    <section id='service' className='flex justify-center items-center min-h-screen py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
+      <div className="w-full max-w-6xl mx-4">
         <div className="text-center mb-8 md:mb-12">
           <h4 className="font-bold text-xl md:text-2xl mb-2">Services</h4>
           <p className="text-gray-600">What I Provide</p>
         </div>
 
-        <div className="flex flex-col justify-center items-center md:flex-row gap-4 md:gap-6">
+        <div className="flex flex-col justify-center items-center md:flex-row gap-4 md:gap-6 bg-white rounded-xl shadow-lg p-8">
           {/* Frontend Development */}
-          <div className="w-2/3 md:w-1/3 p-6 md:p-8 text-center border-b-4 border-b-indigo-400 bg-white rounded-lg shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out md:h-[280px]">
+          <div className="w-2/3 md:w-1/3 p-6 md:p-8 text-center border-b-4 border-b-indigo-400 bg-white hover:rounded-lg hover:shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out md:h-[280px]">
             <div className="flex flex-col items-center justify-between">
               <div>
                 <i className="fa-solid fa-tv text-3xl md:text-4xl mb-3 md:mb-4 text-indigo-400"></i>
@@ -83,7 +83,7 @@ function Service() {
           </div>
 
           {/* Backend Development */}
-          <div className="w-2/3 md:w-1/3 p-6 md:p-8 text-center border-b-4 border-b-indigo-400 bg-white rounded-lg shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out md:h-[280px]">
+          <div className="w-2/3 md:w-1/3 p-6 md:p-8 text-center border-b-4 border-b-indigo-400 bg-white hover:rounded-lg hover:shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out md:h-[280px]">
             <div className="flex flex-col items-center justify-between">
               <div>
                 <i className="fa-solid fa-server text-3xl md:text-4xl mb-3 md:mb-4 text-indigo-400"></i>
@@ -105,7 +105,7 @@ function Service() {
           </div>
 
           {/* Full Stack Solutions */}
-          <div className="w-2/3 md:w-1/3 p-6 md:p-8 text-center border-b-4 border-b-indigo-400 bg-white rounded-lg shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out md:h-[280px]">
+          <div className="w-2/3 md:w-1/3 p-6 md:p-8 text-center border-b-4 border-b-indigo-400 bg-white hover:rounded-lg hover:shadow-lg hover:transform hover:scale-105 transition duration-300 ease-in-out md:h-[280px]">
             <div className="flex flex-col items-center justify-between">
               <div>
                 <i className="fa-solid fa-database text-3xl md:text-4xl mb-3 md:mb-4 text-indigo-400"></i>
@@ -114,7 +114,7 @@ function Service() {
                   Complete MERN stack applications with RESTful API & Database integration
                 </p>
               </div>
-              
+
               <p className="text-indigo-500 hover:text-indigo-700 transitio">
                 <button
                   type="button"

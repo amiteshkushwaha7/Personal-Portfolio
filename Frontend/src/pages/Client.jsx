@@ -12,14 +12,14 @@ function Client() {
       image: ankit
     },
     {
-      name: "Michael Smith",
-      role: "Product Manager, InnovateX",
+      name: "Rajan Singh Kushwaha",
+      role: "Video Editor & Coder",
       testimonial: "Your attention to detail and commitment to quality is unmatched. Highly recommended!",
       image: rajan
     },
     {
-      name: "David Lee",
-      role: "CTO, FinEdge",
+      name: "Ankur Porwal",
+      role: "Web Developer",
       testimonial: "The collaboration was smooth and the results were outstanding. Looking forward to future projects together.",
       image: ankur
     },
@@ -48,20 +48,18 @@ function Client() {
   };
 
   return (
-    <section className="flex justify-center items-center py-8 sm:py-12 md:py-16 lg:py-20 mb-10 sm:mb-16 md:mb-24 lg:mb-32">
-      <div className="w-11/12 sm:w-10/12 md:w-9/12 lg:w-8/12 max-w-6xl px-4 sm:px-6">
+    <section id='client' className='flex justify-center items-center min-h-screen py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
+      <div className="w-full max-w-6xl mx-4">
         {/* Header */}
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
-          <h4 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 sm:mb-3 text-gray-800">
-            Awesome Clients
-          </h4>
-          <p className="text-sm sm:text-base md:text-lg text-gray-600">
+          <h4 className='font-bold text-xl md:text-2xl mb-2'>Awesome Clients</h4>
+          <p className="text-gray-600">
             Words From My Clients
           </p>
         </div>
 
         {/* Carousel */}
-        <div className="flex justify-between items-center gap-4 sm:gap-6 md:gap-8 px-2 sm:px-4">
+        <div className='flex flex-row gap-8 bg-white rounded-xl shadow-lg p-8'>
           {/* Previous Button */}
           <button
             className="cursor-pointer transform hover:scale-105 transition-transform duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-50"
@@ -79,12 +77,12 @@ function Client() {
                 <img
                   src={clients[currentIndex].image}
                   alt={clients[currentIndex].name}
-                  className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 object-cover rounded-lg shadow-md"
+                  className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-48 lg:h-48 object-cover rounded-lg shadow-md"
                 />
               </div>
               {/* Text Content */}
               <div className="w-full md:w-2/3 text-center md:text-left">
-                <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-800 mb-1 sm:mb-2">
+                <h3 className="text-2xl max-md:text-xl font-semibold text-gray-800 mb-1 sm:mb-2">
                   {clients[currentIndex].name}
                 </h3>
                 <p className="text-sm sm:text-base md:text-lg text-gray-600 mb-2 sm:mb-3">
@@ -102,11 +100,10 @@ function Client() {
                 <button
                   key={idx}
                   onClick={() => setCurrentIndex(idx)}
-                  className={`w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full border-2 ${
-                    idx === currentIndex
-                      ? 'bg-indigo-400 border-indigo-100 scale-125 shadow-md shadow-indigo-500/50'
-                      : 'bg-gray-200 border-gray-300 hover:bg-gray-300 hover:border-gray-400'
-                  } transition-all duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-50`}
+                  className={`w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full border-2 ${idx === currentIndex
+                    ? 'bg-indigo-400 border-indigo-100 scale-125 shadow-md shadow-indigo-500/50'
+                    : 'bg-gray-200 border-gray-300 hover:bg-gray-300 hover:border-gray-400'
+                    } transition-all duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-50`}
                   aria-label={`Go to slide ${idx + 1}`}
                 />
               ))}
