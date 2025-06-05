@@ -13,17 +13,17 @@ function Skills() {
   };
 
   return (
-    <section id='service' className='flex justify-center items-center min-h-screen py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
+    <section id='service' className='flex justify-center items-center  py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
       <div className="w-full max-w-6xl mx-4">
         <div className='text-center mb-8'>
           <h4 className='text-2xl font-bold mb-2'>My Resume</h4>
           <p className='text-gray-600'>Combination Of Skills & Experience</p>
         </div>
 
-        <div className='bg-white rounded-xl shadow-lg p-8'>
+        <div className='bg-white rounded-xl shadow-lg p-3'>
 
           {/* Buttons */}
-          <div className="flex flex-wrap justify-center items-center gap-6 mb-8">
+          <div className="flex flex-wrap justify-center items-center gap-6 mb-8 mt-4">
             <div className={`p-2 pl-3 pr-3 cursor-pointer rounded-full hover:bg-indigo-300 transition-all duration-200 ${activeButton === "education" ? "bg-indigo-300" : ""}`}
               onClick={() => { handleButtonClick('education'); setActiveButton('education'); }}>
               <i className="fa-solid fa-graduation-cap mr-2"></i>

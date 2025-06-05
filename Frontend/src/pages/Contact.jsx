@@ -36,7 +36,7 @@ function Contact() {
       alert('Failed to send message. Please try again later.');
     } finally {
       setLoading(false); // <-- Set loading to false after submission
-    } 
+    }
   };
 
   // Modal component
@@ -60,34 +60,34 @@ function Contact() {
   return (
     <>
       <SuccessModal open={modalOpen} onClose={() => setModalOpen(false)} />
-      <section id='contact' className='flex justify-center items-center min-h-screen py-8 px-4 sm:px-6 lg:px-8 pb-20 bg-gray-100'>
+      <section id='contact' className='flex justify-center items-center py-8 px-4 sm:px-6 lg:px-8 pb-20 bg-gray-100'>
         <div className="w-full max-w-6xl mx-4">
           <div className='text-center mb-8 md:mb-12'>
             <h4 className='font-bold text-xl md:text-2xl mb-2'>Contact Me</h4>
             <p className='text-gray-600'>Get in Touch</p>
           </div>
 
-          <div className='flex flex-col lg:flex-row gap-8 bg-white rounded-xl shadow-lg p-8'>
+          <div className='flex flex-col lg:flex-row gap-8 bg-white rounded-xl shadow-lg p-2.5'>
             {/* Left Column - Contact Info */}
             <div className='flex flex-col flex-1'>
               <div className='p-2'>
                 <p className='font-semibold text-lg'>CONTACT INFO</p>
               </div>
 
-              <div className='flex items-center gap-4 p-4'>
+              {/* <div className='flex items-center gap-4 p-4'>
                 <div className='p-3 rounded-lg'>
                   <i className="fa-solid fa-envelope text-xl"></i>
                 </div>
                 <div>
                   <p className='text-gray-600'>E-Mail</p>
-                  <p className='font-semibold'>amiteshkushwaha2020@gmail.com</p>
+                  <p className='font-semibold break-words'>amiteshkushwaha2020@gmail.com</p>
                   <p className='mt-1'>
                     <a href="mailto:amiteshkushwaha2020@gmail.com" className='text-indigo-600 hover:text-indigo-800 flex items-center'>
                       Send <i className="fa-solid fa-arrow-right ml-2 text-indigo-400"></i>
                     </a>
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               <div className='flex items-center gap-4 p-4'>
                 <div className='p-3 rounded-lg'>
@@ -160,7 +160,7 @@ function Contact() {
             <div className='flex-1 p-6 flex flex-col'>
               <div className='mb-6'>
                 <h1 className='text-2xl md:text-3xl font-bold mb-3'>LET'S WORK <span className='text-indigo-400'>TOGETHER.</span></h1>
-                <p className='text-gray-600'>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday.</p>
+                <p className='text-gray-600'>Please fill out the form on this section to contact with me.</p>
               </div>
 
               <form

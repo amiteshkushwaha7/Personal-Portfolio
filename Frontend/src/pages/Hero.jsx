@@ -13,8 +13,8 @@ function Hero() {
   }, []);
 
   return ( 
-    <section id='home' className='flex justify-center items-center min-h-screen py-8 px-4 sm:px-6 lg:px-8 bg-gray-100 pt-20'>
-      <div className="w-full flex justify-between items-center max-w-6xl mx-4 bg-white rounded-xl shadow-lg p-8">
+    <section id='home' className='flex justify-center items-center py-8 px-4 sm:px-6 lg:px-8 bg-gray-100 pt-20'>
+      <div className="w-full flex justify-between mt-1 items-center max-w-6xl mx-4 bg-white rounded-xl shadow-lg p-8">
     
         {/* Follow On section - now using writing-mode for consistent vertical text */}
         <div className="flex flex-col justify-center items-center gap-5 max-[480px]:hidden">
@@ -36,7 +36,7 @@ function Hero() {
           <div className="md:hidden text-center">
             <p className="mb-2">Hello, I'm</p>
             <p className="mb-2 text-3xl font-semibold">Amitesh Kushwaha</p>
-            <p className="mb-3">A Web Designer & Developer</p>
+            <p className="mb-3">A Full-Stack Developer & Coder</p>
           </div>
 
           {/* Image - visible on all screens */}
@@ -70,7 +70,7 @@ function Hero() {
           <div className="hidden md:block text-center md:text-left">
             <p className="mb-2">Hello, I'm</p>
             <p className="mb-2 text-3xl font-semibold">Amitesh Kushwaha</p>
-            <p className="mb-3">A Web Designer & Developer</p>
+            <p className="mb-3">A Full-Stack Developer & Coder</p>
             <button className="bg-indigo-300 hover:bg-indigo-400 transition-colors p-3 rounded-3xl cursor-pointer"
               onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })}>
               See My Work <i className="fa-regular fa-user ml-2"></i>

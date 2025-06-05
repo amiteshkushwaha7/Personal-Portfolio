@@ -23,18 +23,6 @@ function Client() {
       testimonial: "The collaboration was smooth and the results were outstanding. Looking forward to future projects together.",
       image: ankur
     },
-    {
-      name: "Priya Patel",
-      role: "Founder, StartupHub",
-      testimonial: "You brought our vision to life with professionalism and creativity. Thank you for your hard work.",
-      image: "https://randomuser.me/api/portraits/women/68.jpg"
-    },
-    {
-      name: "Sara Müller",
-      role: "Marketing Lead, BrightIdeas",
-      testimonial: "Exceptional service and communication throughout the project. We are thrilled with the outcome.",
-      image: "https://randomuser.me/api/portraits/women/12.jpg"
-    }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -48,7 +36,7 @@ function Client() {
   };
 
   return (
-    <section id='client' className='flex justify-center items-center min-h-screen py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
+    <section id='client' className='flex justify-center items-center  py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
       <div className="w-full max-w-6xl mx-4">
         {/* Header */}
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
@@ -62,7 +50,7 @@ function Client() {
         <div className='flex flex-row gap-8 bg-white rounded-xl shadow-lg p-8'>
           {/* Previous Button */}
           <button
-            className="cursor-pointer transform hover:scale-105 transition-transform duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-50"
+            className="cursor-pointer transform hover:scale-105 transition-transform duration-300"
             onClick={prevClient}
             aria-label="Previous client"
           >
@@ -112,7 +100,7 @@ function Client() {
 
           {/* Next Button */}
           <button
-            className="cursor-pointer transform hover:scale-105 transition-transform duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-50"
+            className="cursor-pointer transform hover:scale-105 transition-transform duration-300"
             onClick={nextClient}
             aria-label="Next client"
           >

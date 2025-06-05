@@ -47,7 +47,7 @@ function Project() {
   };
 
   return (
-    <section id='project' className='flex justify-center items-center min-h-screen py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
+    <section id='project' className='flex justify-center items-center  py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
       <div className="w-full max-w-6xl mx-4">
         <div className="text-center mb-8 md:mb-12">
           <h4 className="font-bold text-xl md:text-2xl mb-2">Projects</h4>
