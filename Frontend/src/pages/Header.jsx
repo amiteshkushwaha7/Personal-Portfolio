@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Header() {
   return (
-    <section id='header' className='flex justify-center items-center pt-8 px-4 sm:px-6 lg:px-8 bg-gray-100 fixed w-full z-10'>
+    <section id='header' className='flex justify-center items-center pt-8 px-4 sm:px-6 lg:px-8 bg-gray-100 fixed w-full z-10 '>
       <div className="w-full flex justify-between items-center max-w-6xl mx-4 bg-white rounded-t-xl shadow-lg p-2">
         <div className='p-2 text-2xl font-semibold max-md:text-xl ml-4'>Amitesh Kushwaha.</div>
         <div className='flex justify-center items-center gap-6 mr-5'>

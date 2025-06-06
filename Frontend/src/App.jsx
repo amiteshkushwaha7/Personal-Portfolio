@@ -72,6 +72,7 @@ const MainLayout = () => {
   return (
     <>
       <Header />
+      <div className='w-full h-15'></div>
       <ScrollToSection />
       <ScrollSpy /> 
       <main>

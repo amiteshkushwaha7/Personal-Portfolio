@@ -10,7 +10,7 @@ function About() {
           <p className='text-gray-600'>What I do</p>
         </div>
 
-        <div className='flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12 bg-white rounded-xl shadow-lg p-5'>
+        <div className='flex flex-col lg:flex-row justify-center items-center gap-8 lg:gap-12 bg-white rounded-xl shadow-lg px-5 py-8'>
           <div className='w-full lg:w-1/3 flex justify-center'>
             <img
               src={aboutImage}
@@ -58,8 +58,8 @@ function About() {
               </button>
               <a
                 className='border px-6 py-3 rounded-full font-medium hover:bg-indigo-50 transition-colors flex items-center'
-                href="/CV.pdf"
-                download
+                href="/amiteshKushwahaResume.pdf"
+                download="amiteshKushwahaResume.pdf"
               >
                 Download CV
               </a>

@@ -13,7 +13,7 @@ function Skills() {
   };
 
   return (
-    <section id='service' className='flex justify-center items-center  py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
+    <section id='service' className='flex justify-center items-center py-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
       <div className="w-full max-w-6xl mx-4">
         <div className='text-center mb-8'>
           <h4 className='text-2xl font-bold mb-2'>My Resume</h4>
@@ -51,7 +51,7 @@ function Skills() {
                 {/* <!-- Education Entry 1 --> */}
                 <div className="mb-8 flex flex-col md:flex-row items-start w-full">
                   {/* <!-- Timeline dot --> */}
-                  <div className="absolute md:left-1/2 w-4 h-4 bg-indigo-400 rounded-full -translate-x-1/2 mt-20 z-10"></div>
+                  <div className="absolute md:left-1/2 w-4 h-4 bg-indigo-400 rounded-full -translate-x-1/2 mt-20"></div>
                   {/* <!-- Content card --> */}
                   <div className="w-full md:w-5/12 md:mr-8 mt-8 md:mt-0">
                     <div className="bg-white p-4 rounded-lg shadow-md border border-gray-200">
@@ -74,7 +74,7 @@ function Skills() {
                 {/* <!-- Education Entry 2 --> */}
                 <div className="mb-8 flex flex-col md:flex-row-reverse items-start w-full">
                   {/* <!-- Timeline dot --> */}
-                  <div className="absolute md:left-1/2 w-4 h-4 bg-indigo-400 rounded-full -translate-x-1/2 mt-14 z-10"></div>
+                  <div className="absolute md:left-1/2 w-4 h-4 bg-indigo-400 rounded-full -translate-x-1/2 mt-14 "></div>
                   {/* <!-- Content card --> */}
                   <div className="w-full md:w-5/12 md:ml-8 mt-8 md:mt-0">
                     <div className="bg-white p-4 rounded-lg shadow-md border border-gray-200">
@@ -97,7 +97,7 @@ function Skills() {
                 {/* <!-- Education Entry 3 --> */}
                 <div className="mb-4 flex flex-col md:flex-row items-start w-full">
                   {/* <!-- Timeline dot --> */}
-                  <div className="absolute md:left-1/2 w-4 h-4 bg-indigo-400 rounded-full -translate-x-1/2 mt-14 z-10"></div>
+                  <div className="absolute md:left-1/2 w-4 h-4 bg-indigo-400 rounded-full -translate-x-1/2 mt-14 "></div>
                   {/* <!-- Content card --> */}
                   <div className="w-full md:w-5/12 md:mr-8 mt-8 md:mt-0">
                     <div className="bg-white p-4 rounded-lg shadow-md border border-gray-200">
@@ -130,7 +130,7 @@ function Skills() {
                 {/* <!-- Experience Entry 1 --> */}
                 <div className="mb-8 flex flex-col md:flex-row items-start w-full">
                   {/* <!-- Timeline dot --> */}
-                  <div className="absolute md:left-1/2 w-4 h-4 bg-indigo-400 rounded-full -translate-x-1/2 mt-20 z-10"></div>
+                  <div className="absolute md:left-1/2 w-4 h-4 bg-indigo-400 rounded-full -translate-x-1/2 mt-20 "></div>
                   {/* <!-- Content card --> */}
                   <div className="w-full md:w-5/12 md:mr-8 mt-8 md:mt-0">
                     <div className="bg-white p-4 rounded-lg shadow-md border border-gray-200">
@@ -154,7 +154,7 @@ function Skills() {
                 <div className="mb-8 flex flex-col md:flex-row-reverse items-start w-full">
                   {/* <!-- Timeline dot --> */}
                   <div className="absolute md:left-1/2 w-4 h-4 bg-indigo-300
-                 rounded-full -translate-x-1/2 mt-14 z-10"></div>
+                 rounded-full -translate-x-1/2 mt-14 "></div>
                   {/* <!-- Content card --> */}
                   <div className="w-full md:w-5/12 md:ml-8 mt-8 md:mt-0">
                     <div className="bg-white p-4 rounded-lg shadow-md border border-gray-200">
@@ -177,7 +177,7 @@ function Skills() {
                 {/* <!-- Experience Entry 3 --> */}
                 <div className="mb-8 flex flex-col md:flex-row items-start w-full">
                   {/* <!-- Timeline dot --> */}
-                  <div className="absolute md:left-1/2 w-4 h-4 bg-indigo-400 rounded-full -translate-x-1/2 mt-14 z-10"></div>
+                  <div className="absolute md:left-1/2 w-4 h-4 bg-indigo-400 rounded-full -translate-x-1/2 mt-14 "></div>
                   {/* <!-- Content card --> */}
                   <div className="w-full md:w-5/12 md:mr-8 mt-8 md:mt-0">
                     <div className="bg-white p-4 rounded-lg shadow-md border border-gray-200">
