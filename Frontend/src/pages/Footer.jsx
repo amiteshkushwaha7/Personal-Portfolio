@@ -2,9 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Footer() {
-  return (
-    // <section className='flex justify-center items-center bg-indigo-100'>
-    //   <div className="w-9/12 max-w-6xl">
+  return ( 
     <section id='contact' className='flex justify-center items-centerpy-8 px-4 sm:px-6 lg:px-8 bg-gray-100'>
         <div className="w-full max-w-6xl mx-4 bg-white rounded-t-xl shadow-lg p-8">
       <div className='my-10 p-6 rounded-lg s'>
